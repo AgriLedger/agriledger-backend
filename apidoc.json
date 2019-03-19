@@ -1,0 +1,8 @@
+{
+  "name": "Multichain API",
+  "version": "1.0.0",
+  "description": "API List for multichain",
+  "template": {
+    "forceLanguage": "en"
+  }
+}

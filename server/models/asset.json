@@ -1,0 +1,177 @@
+{
+  "name": "asset",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "documents": {
+      "type": [
+        {
+          "url": {
+            "type": "string",
+            "default": null
+          },
+          "lat": {
+            "type": "string",
+            "default": null
+          },
+          "long": {
+            "type": "string",
+            "default": null
+          },
+          "hash": {
+            "type": "string",
+            "default": null
+          },
+          "date": {
+            "type": "date",
+            "default": "$now"
+          },
+          "status": {
+            "type": "string",
+            "default": "pending"
+          }
+        }
+      ]
+    },
+    "evidences": {
+      "type": [
+        {
+          "url": {
+            "type": "string",
+            "default": null
+          },
+          "lat": {
+            "type": "string",
+            "default": null
+          },
+          "long": {
+            "type": "string",
+            "default": null
+          },
+          "hash": {
+            "type": "string",
+            "default": null
+          },
+          "date": {
+            "type": "date",
+            "default": "$now"
+          },
+          "status": {
+            "type": "string",
+            "default": "pending"
+          }
+        }
+      ]
+    },
+    "inputDetails": {
+      "type": "string"
+    },
+    "expectedHarvestAmount": {
+      "type": "number"
+    },
+    "expectedYield": {
+      "type": "number",
+      "default": null
+    },
+    "landHistory": {
+      "type": "string",
+      "default": null
+    },
+    "farmInvestments": {
+      "type": "number",
+      "default": null
+    },
+    "additionalInformation": {
+      "type": "string",
+      "default": null
+    },
+    "grade": {
+      "type": "string",
+      "default": null
+    },
+    "packaging": {
+      "type": "string",
+      "default": null
+    },
+    "healthOfSoil": {
+      "type": "string",
+      "default": null
+    },
+    "expectedHarvestDate": {
+      "type": "date"
+    },
+    "assetPoolId": {
+      "type": "string",
+      "default": null
+    },
+    "categoryId": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": {
+        "level1": {
+          "type": "string",
+          "default": ""
+        },
+        "level2": {
+          "type": "string",
+          "default": ""
+        },
+        "level3": {
+          "type": "string",
+          "default": ""
+        },
+        "level4": {
+          "type": "string",
+          "default": ""
+        },
+        "level5": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "createdAt": {
+      "type": "date",
+      "default": "$now"
+    },
+    "updatedAt": {
+      "type": "date",
+      "default": "$now"
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "available"
+    },
+    "isEvidenceUploaded": {
+      "type": "number",
+      "default": false
+    },
+    "isPutOnBlockchain": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

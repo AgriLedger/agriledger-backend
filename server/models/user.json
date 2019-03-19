@@ -1,0 +1,185 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "hidden": [
+    "privateKey"
+  ],
+  "properties": {
+    "role": {
+      "type": "string",
+      "default": "farmer"
+    },
+    "transferStatus": {
+      "type": "string",
+      "default": ""
+    },
+    "isPasswordChanged": {
+      "type": "boolean",
+      "default": false
+    },
+    "isRegisteredOnBlockchain": {
+      "type": "boolean",
+      "default": false
+    },
+    "isIssuerOnBlockchain": {
+      "type": "boolean",
+      "default": false
+    },
+    "issuerName": {
+      "type": "string"
+    },
+    "privateKey": {
+      "type": "string",
+      "default": null
+    },
+    "multichain": {
+      "type": {
+        "address": {
+          "type": "string",
+          "default": null
+        },
+        "privateKey": {
+          "type": "string",
+          "default": null
+        },
+        "publicKey": {
+          "type": "string",
+          "default": null
+        }
+      },
+      "default": {
+        "address": "",
+        "privateKey": "",
+        "publicKey": ""
+      }
+    },
+    "agriId": {
+      "type": "string",
+      "default": null
+    },
+    "publicKey": {
+      "type": "string",
+      "default": null
+    },
+    "walletAddress": {
+      "type": "string",
+      "default": null
+    },
+    "createdAt": {
+      "type": "date",
+      "default": "$now"
+    },
+    "transactionId": {
+      "type": "string",
+      "default": null
+    },
+    "lastLoggedIn": {
+      "type": "date",
+      "default": null
+    }
+  },
+  "validations": [],
+  "relations": {
+    "assets": {
+      "type": "hasMany",
+      "model": "asset",
+      "foreignKey": ""
+    },
+    "profiles": {
+      "type": "hasOne",
+      "model": "profile",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "create"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "ops",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "ops",
+      "permission": "ALLOW",
+      "property": "find"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "ops",
+      "permission": "ALLOW",
+      "property": "findById"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "count"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "__get__assets"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "__count__assets"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "farmer",
+      "permission": "ALLOW",
+      "property": "__create__assets"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__updateById__assets"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__destroyById__assets"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "__findById__assets"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "__get__profiles"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "ops",
+      "permission": "ALLOW",
+      "property": "__update__profiles"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__update__profiles"
+    }
+  ],
+  "methods": {}
+}

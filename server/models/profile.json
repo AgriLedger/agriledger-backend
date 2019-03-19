@@ -1,0 +1,174 @@
+{
+  "name": "profile",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "company": {
+      "type": "string",
+      "default": null
+    },
+    "registration": {
+      "type": "string",
+      "default": ""
+    },
+    "passcode": {
+      "type": "number",
+      "default": null
+    },
+    "address": {
+      "type": {
+        "line1": {
+          "type": "string",
+          "default": ""
+        },
+        "line2": {
+          "type": "string",
+          "default": ""
+        },
+        "country": {
+          "type": "string",
+          "default": ""
+        },
+        "city": {
+          "type": "string",
+          "default": ""
+        },
+        "province": {
+          "type": "string",
+          "default": ""
+        },
+        "district": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "default": {
+        "line1": "",
+        "line2": "",
+        "city": "",
+        "country": "",
+        "province": "",
+        "district": ""
+      }
+    },
+    "phone": {
+      "type": "string",
+      "default": ""
+    },
+    "verificationStatus": {
+      "type": "string",
+      "default": "approved"
+    },
+    "weChat": {
+      "type": "string",
+      "default": ""
+    },
+    "farmDetails": {
+      "type": [
+        {
+          "farmName": {
+            "type": "string",
+            "default": null
+          },
+          "products": {
+            "type": "string",
+            "default": null
+          },
+          "crops": {
+            "type": "string",
+            "default": null
+          },
+          "grade": {
+            "type": "string",
+            "default": null
+          },
+          "size": {
+            "type": "string",
+            "default": null
+          },
+          "region": {
+            "type": "string",
+            "default": null
+          }
+        }
+      ],
+      "default": []
+    },
+    "documents": {
+      "type": [
+        {
+          "url": {
+            "type": "string",
+            "default": null
+          },
+          "lat": {
+            "type": "string",
+            "default": null
+          },
+          "long": {
+            "type": "string",
+            "default": null
+          },
+          "hash": {
+            "type": "string",
+            "default": null
+          },
+          "date": {
+            "type": "date",
+            "default": "$now"
+          },
+          "status": {
+            "type": "string",
+            "default": "pending"
+          },
+          "description": {
+            "type": "string",
+            "default": ""
+          }
+        }
+      ],
+      "default": []
+    },
+    "profileUrl": {
+      "type": {
+        "url": {
+          "type": "string",
+          "default": null
+        },
+        "lat": {
+          "type": "string",
+          "default": null
+        },
+        "long": {
+          "type": "string",
+          "default": null
+        }
+      },
+      "default": {
+        "url": "",
+        "lat": "",
+        "long": ""
+      }
+    },
+    "relations": {
+      "type": {}
+    },
+    "acls": {
+      "type": []
+    },
+    "methods": {
+      "type": {}
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,186 @@
+{
+  "name": "assetpool",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "assetsId": {
+      "type": [
+        {
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    "issuerName": {
+      "type": "string",
+      "required": true
+    },
+    "categoryId": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": {
+        "level1": {
+          "type": "string",
+          "default": ""
+        },
+        "level2": {
+          "type": "string",
+          "default": ""
+        },
+        "level3": {
+          "type": "string",
+          "default": ""
+        },
+        "level4": {
+          "type": "string",
+          "default": ""
+        },
+        "level5": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "isPutOnBlockchain": {
+      "type": "boolean",
+      "default": false
+    },
+    "desc": {
+      "type": "string",
+      "required": true
+    },
+    "precision": {
+      "type": "number",
+      "required": true
+    },
+    "maximum": {
+      "type": "number",
+      "required": true
+    },
+    "estimateUnit": {
+      "type": "string",
+      "required": true
+    },
+    "estimatePrice": {
+      "type": "number",
+      "required": true
+    },
+    "exerciseUnit": {
+      "type": "number",
+      "required": true
+    },
+    "unlockCondition": {
+      "type": "number",
+      "required": true
+    },
+    "chainOrNot": {
+      "type": "boolean",
+      "required": true
+    },
+    "extra": {
+      "type": {
+        "productBrand": {
+          "value": {
+            "type": "string"
+          },
+          "remark": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          }
+        },
+        "packingStandard": {
+          "value": {
+            "type": "string"
+          },
+          "remark": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          }
+        },
+        "productIndex": {
+          "value": {
+            "type": "string"
+          },
+          "remark": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          }
+        },
+        "productionInfo": {
+          "value": {
+            "type": "string"
+          },
+          "remark": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          }
+        },
+        "otherInfo": {
+          "value": {
+            "type": "string"
+          },
+          "remark": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          }
+        },
+        "moreDetails": {
+          "type": "string"
+        }
+      }
+    },
+    "created": {
+      "type": "date",
+      "required": true,
+      "default": "$now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tokens": {
+      "type": "hasMany",
+      "model": "token",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "sponsor",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

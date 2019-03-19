@@ -1,0 +1,1685 @@
+{
+  "countryList": [
+    "China"
+  ],
+  "provinceList": {
+    "China": [
+      "Anhui",
+      "Fujian",
+      "Gansu",
+      "Guangdong",
+      "Guizhou",
+      "Hainan",
+      "Hebei",
+      "Heilongjiang",
+      "Henan",
+      "Hubei",
+      "Hunan",
+      "Jiangsu",
+      "Jiangxi",
+      "Jilin",
+      "Liaoning",
+      "Qinghai",
+      "Shaanxi",
+      "Shandong",
+      "Shanxi",
+      "Sichuan",
+      "Yunnan",
+      "Zhejiang"
+    ]
+  },
+  "cityList": {
+    "Anhui": [
+      "Hefei",
+      "Huainan",
+      "Wuhu",
+      "Huaibei",
+      "Bengbu",
+      "Fuyang",
+      "Anhui Suzhou",
+      "Lu an",
+      "Ma anshan",
+      "Anqing",
+      "Tongling"
+    ],
+    "Fujian": [
+      "Xiamen",
+      "Fuzhou",
+      "Jinjiang",
+      "Quanzhou",
+      "Putian",
+      "Nan an",
+      "Zhangzhou",
+      "Fuqing",
+      "Shishi",
+      "Hui an",
+      "Longyan"
+    ],
+    "Gansu": [
+      "Lanzhou",
+      "Tianshui",
+      "Baiyin",
+      "Wuwei",
+      "Jiuquan",
+      "Pingliang",
+      "Linxia",
+      "Zhangye",
+      "Jiayuguan "
+    ],
+    "Guangdong": [
+      "Guangzhou",
+      "Shenzhen",
+      "Dongguan",
+      "Foshan",
+      "Shantou",
+      "Zhongshan",
+      "Huizhou",
+      "Jiangmen",
+      "Zhuhai"
+    ],
+    "Guizhou": [
+      "Guiyang",
+      "  Zunyi",
+      "Liupanshui",
+      "Bijie",
+      "Anshun",
+      "Xingyi",
+      "Kaili",
+      "Weining"
+    ],
+    "Hainan": [
+      "Haikou",
+      "Sanya",
+      "Danzhou",
+      "Wenchang",
+      "Wanning",
+      "Qionghai",
+      "Chengmai",
+      "Lingao",
+      "Dongfang"
+    ],
+    "Hebei": [
+      "Shijiazhuang",
+      "Tangshan",
+      "Baoding",
+      "Zhangjiakou",
+      "Qinhuangdao",
+      "Handan",
+      "Xingtai",
+      "Langfang"
+    ],
+    "Heilongjiang": [
+      "Harbin",
+      "Daqing",
+      "Qiqihar",
+      "Mudanjiang",
+      "Jixi",
+      "Yichun",
+      "Jiamusi",
+      "Hegang",
+      "Qitaihe"
+    ],
+    "Henan": [
+      "Zhengzhou",
+      "Luoyang",
+      "Xinxiang",
+      "Anyang",
+      "Nanyang",
+      "Kaifeng",
+      "Pingdingshan",
+      "Jiaozuo"
+    ],
+    "Hubei": [
+      "Wuhan",
+      "Xiangyang",
+      "Yichang",
+      "Jingzhou",
+      "Shiyan",
+      "Huangshi",
+      "Tianmen",
+      "Ezhou",
+      "Xiaogan",
+      "Xiantao"
+    ],
+    "Hunan": [
+      " Changsha",
+      "Hengyang",
+      "Zhuzhou",
+      "Yueyang",
+      "Xiangtan",
+      "Changde",
+      "Yiyang",
+      "Liuyang",
+      "Chenzhou",
+      "Shaoyang",
+      "Yongzhou"
+    ],
+    "Jiangsu": [
+      "Nanjing",
+      "Suzhou",
+      "Wuxi",
+      "Changzhou",
+      "Xuzhou",
+      "Nantong",
+      "Yangzhou",
+      "Huai an",
+      "Yancheng",
+      "Kunshan",
+      "Jiangyin"
+    ],
+    "Jiangxi": [
+      "Nanchang",
+      "Ganzhou",
+      "Pingxiang",
+      "Jiujiang",
+      "Xinyu",
+      "Jiangxi→Fuzhou",
+      "Jiangxi→Yichun",
+      "Jingdezhen",
+      "Nanchang"
+    ],
+    "Jilin": [
+      "Changchun",
+      "Jilin",
+      "Siping",
+      "Yanji",
+      "Baishan",
+      "Tonghua",
+      "Songyuan",
+      "Liaoyuan",
+      "Baicheng",
+      "Gongzhuling"
+    ],
+    "Liaoning": [
+      "Shenyang",
+      "Dalian",
+      "Anshan",
+      "Fushun",
+      "Benxi",
+      "Jinzhou",
+      "Yingkou",
+      "Panjin",
+      "Dandong",
+      "Fuxin"
+    ],
+    "Qinghai": [
+      "Xining",
+      "Golmud",
+      "Datong",
+      "Minhe",
+      "Huangzhong",
+      "Ledu",
+      "Huzhu",
+      "Yushu",
+      "Delhi",
+      "Ping an"
+    ],
+    "Shaanxi": [
+      "Xi an",
+      "Baoji",
+      "Xianyang",
+      "Tongchuan",
+      "Yulin",
+      "Ankang",
+      "Hanzhong",
+      "Weinan",
+      "Yan an"
+    ],
+    "Shandong": [
+      "Qingdao",
+      "Jinan",
+      "Zibo",
+      "Yantai",
+      "Linyi",
+      "Weifang",
+      "Tai an",
+      "Zaozhuang",
+      "Jining",
+      "Rizhao"
+    ],
+    "Shanxi": [
+      "Taiyuan",
+      "Datong",
+      "Changzhi",
+      "Yangquan",
+      "Linfen",
+      "Jincheng",
+      "Jinzhong",
+      "Yuncheng",
+      "Shuozhou"
+    ],
+    "Sichuan": [
+      "Chengdu",
+      "Mianyang",
+      "Nanchong",
+      "Luzhou",
+      "Leshan",
+      "Zigong",
+      "Panzhihua"
+    ],
+    "Yunnan": [
+      "Kunming",
+      "Qujing",
+      "Xuanwei",
+      "Dali",
+      "Chuxiong",
+      "Yuxi",
+      "Baoshan",
+      "Zhaotong"
+    ],
+    "Zhejiang": [
+      "Hangzhou",
+      "Wenzhou",
+      "Ningbo",
+      "Shaoxing",
+      "Taizhou",
+      "Cixi",
+      "Rui an",
+      "Yiwu"
+    ],
+    "Inner Mongolia": [
+      "Hohhot",
+      "Baotou",
+      "Wuhai",
+      "Chifeng",
+      "Tongliao",
+      "Ordos",
+      "Hulunbuir",
+      "Bayannur",
+      "Ulanqab"
+    ]
+  },
+  "districtList": {
+    "Hefei": [
+      "Yaohai",
+      "Luyang",
+      "Shushan",
+      "Baohe"
+    ],
+    "Wuhu": [
+      "Jinghu",
+      "Yijiang",
+      "Jiujiang",
+      "Sanshan"
+    ],
+    "Bengbu": [
+      "Longzihu",
+      "Bengshan",
+      "Yuhui",
+      "Huaishang"
+    ],
+    "Huainan": [
+      "Datong",
+      "Tianjia an",
+      "Xiejiaji",
+      "Bagongshan",
+      "Panji"
+    ],
+    "Ma anshan": [
+      "Huashan",
+      "Yushan",
+      "Bowang"
+    ],
+    "Huaibei": [
+      "Duji",
+      "Xiangshan",
+      "Lieshan"
+    ],
+    "Tongling": [
+      "Tongguanshan",
+      "Shizishan",
+      "Jiaoqu(qu)"
+    ],
+    "Anqing": [
+      "Yingjiang",
+      "Daguan",
+      "Yixiu"
+    ],
+    "Huangshan": [
+      "Tunxi",
+      "Huangshan",
+      "Huizhou"
+    ],
+    "Chuzhou": [
+      "Langya",
+      "Nanqiao"
+    ],
+    "Fuyang": [
+      "Yingzhou",
+      "Yingdong",
+      "Yingquan"
+    ],
+    "Anhui→Suzhou": [
+      "Yongqiao"
+    ],
+    "Lu an": [
+      "Jin an",
+      "Yu an"
+    ],
+    "Bozhou": [
+      "Qiaocheng"
+    ],
+    "Chizhou": [
+      "Guichi"
+    ],
+    "Xuancheng": [
+      "Xuanzhou"
+    ],
+    "Fuzhou": [
+      "Gulou",
+      "Taijiang",
+      "Cangshan",
+      "Mawei",
+      "Jin an"
+    ],
+    "Xiamen": [
+      "Siming",
+      "Haicang",
+      "Huli",
+      "Jimei",
+      "Tong an",
+      "Xiang an"
+    ],
+    "Putian": [
+      "Chengxiang",
+      "Hanjiang",
+      "Licheng",
+      "Xiuyu"
+    ],
+    "Sanming": [
+      "Meilie",
+      "Sanyuan"
+    ],
+    "Quanzhou": [
+      "Licheng",
+      "Fengze",
+      "Luojiang",
+      "Quangang"
+    ],
+    "Zhangzhou": [
+      "Xiangcheng",
+      "Longwen"
+    ],
+    "Nanping": [
+      "Yanping",
+      "Yanping"
+    ],
+    "Longyan": [
+      "Xinluo"
+    ],
+    "Ningde": [
+      "Jiaocheng"
+    ],
+    "Lanzhou": [
+      "Chengguan",
+      "Qilihe",
+      "Xigu",
+      "Anning",
+      "Honggu"
+    ],
+    "Jinchang": [
+      "Jinchuan"
+    ],
+    "Baiyin": [
+      "Baiyin",
+      "Pingchuan"
+    ],
+    "Tianshui": [
+      "Qinzhou",
+      "Maiji"
+    ],
+    "Wuwei": [
+      "Liangzhou"
+    ],
+    "Zhangye": [
+      "Ganzhou"
+    ],
+    "Pingliang": [
+      "Kongtong"
+    ],
+    "Jiuquan": [
+      "Suzhou"
+    ],
+    "Qingyang": [
+      "Xifeng"
+    ],
+    "Dingxi": [
+      "Anding"
+    ],
+    "Longnan": [
+      "Wudu"
+    ],
+    "Guangzhou": [
+      "Liwan",
+      "Yuexiu",
+      "Haizhu",
+      "Tianhe",
+      "Baiyun",
+      "Huangpu",
+      "Panyu",
+      "Huadu",
+      "Nansha",
+      "Zengcheng",
+      "Conghua"
+    ],
+    "Shenzhen": [
+      "Luohu",
+      "Futian",
+      "Nanshan",
+      "Bao an",
+      "Guangming",
+      "Longhua",
+      "Longgang",
+      "Pingshan",
+      "Dapeng",
+      "Yantian"
+    ],
+    "Zhuhai": [
+      "Doumen",
+      "Jinwan",
+      "Xiangzhou"
+    ],
+    "Shantou": [
+      "Longhu",
+      "Jinping",
+      "Haojiang",
+      "Chaoyang",
+      "Chaonan",
+      "Chenghai"
+    ],
+    "Foshan": [
+      "Chancheng",
+      "Nanhai",
+      "Shunde",
+      "Gaoming",
+      "Sanshui"
+    ],
+    "Jiangmen": [
+      "Pengjiang",
+      "Jianghai",
+      "Xinhui"
+    ],
+    "Shaoguan": [
+      "Wujiang",
+      "Zhenjiang",
+      "Qujiang"
+    ],
+    "Huizhou": [
+      "Huicheng",
+      "Huiyang"
+    ],
+    "Meizhou": [
+      "Meijiang",
+      "Meixian"
+    ],
+    "Maoming": [
+      "Maonan",
+      "Dianbai"
+    ],
+    "Zhaoqing": [
+      "Duanzhou",
+      "Dinghu"
+    ],
+    "Shanwei": [
+      "Cheng(qu)"
+    ],
+    "Heyuan": [
+      "Yuancheng"
+    ],
+    "Yangjiang": [
+      "Jiangcheng",
+      "Yangdong"
+    ],
+    "Qingyuan": [
+      "Qingcheng",
+      "Qingxin"
+    ],
+    "Chaozhou": [
+      "Xiangqiao",
+      "Chao an"
+    ],
+    "Jieyang": [
+      "Rongcheng",
+      "Jiedong"
+    ],
+    "Yunfu": [
+      "Yuncheng",
+      "Yun an"
+    ],
+    "Nanning": [
+      "Xingning",
+      "Qingxiu",
+      "Jiangnan",
+      "Xixiangtang",
+      "Liangqing",
+      "Yongning"
+    ],
+    "Liuzhou": [
+      "Chengzhong",
+      "Yufeng",
+      "Liunan",
+      "Liubei"
+    ],
+    "Guilin": [
+      "Xiufeng",
+      "Diecai",
+      "Xiangshan",
+      "Qixing",
+      "Yanshan",
+      "Lingui"
+    ],
+    "Wuzhou": [
+      "Wanxiu",
+      "Changzhou",
+      "Longxu"
+    ],
+    "Beihai": [
+      "Haicheng",
+      "Yinhai",
+      "Tieshangang"
+    ],
+    "Fangchenggang": [
+      "Gangkou",
+      "Fangcheng"
+    ],
+    "Qinzhou": [
+      "Qinnan",
+      "Qinbei"
+    ],
+    "Guigang": [
+      "Gangbei",
+      "Guigang",
+      "Qintang"
+    ],
+    "Baise": [
+      "Youjiang"
+    ],
+    "Hezhou": [
+      "Babu"
+    ],
+    "Hechi": [
+      "Jinchengjiang"
+    ],
+    "Laibin": [
+      "Xingbin"
+    ],
+    "Chongzuo": [
+      "Jiangzhou"
+    ],
+    "Guiyang": [
+      "Nanming",
+      "Yunyan",
+      "Huaxi",
+      "Wudang",
+      "Baiyun",
+      "Jinyang Guanshanhu"
+    ],
+    "Liupanshui": [
+      "Zhongshan",
+      "Liuzhi"
+    ],
+    "Zunyi": [
+      "Honghuagang",
+      "Huichuan"
+    ],
+    "Anshun": [
+      "Xixiu"
+    ],
+    "Tongren": [
+      "Tongren Bijiang",
+      "Wanshan"
+    ],
+    "Bijie": [
+      "Bijie Qixingguan"
+    ],
+    "Haikou": [
+      "Xiuying",
+      "Longhua",
+      "Qiongshan",
+      "Meilan"
+    ],
+    "Sanya": [
+      "Jiyang",
+      "Fenghuang",
+      "Haitang",
+      "Yazhou"
+    ],
+    "Shijiazhuang": [
+      "Chang an",
+      "Qiaoxi",
+      "Xinhua",
+      "Yuhua",
+      "Jingxing(qu)"
+    ],
+    "Tangshan": [
+      "Lunan",
+      "Lubei",
+      "Guye",
+      "Kaiping",
+      "Fengnan",
+      "Fengrun",
+      "Tanghai Caofeidian"
+    ],
+    "Qinhuangdao": [
+      "Haigang",
+      "Shanhaiguan",
+      "Beidaihe"
+    ],
+    "Handan": [
+      "Hanshan",
+      "Congtai",
+      "Fuxing",
+      "Fengfeng"
+    ],
+    "Xingtai": [
+      "Qiaodong",
+      "Qiaoxi"
+    ],
+    "Baoding": [
+      "Xinshi",
+      "Beishi",
+      "Nanshi"
+    ],
+    "Zhangjiakou": [
+      "Qiaodong",
+      "Qiaoxi",
+      "Xuanhua(qu)",
+      "Xiahuayuan"
+    ],
+    "Chengde": [
+      "Shuangqiao",
+      "Shuangluan",
+      "Yingshouyingzi",
+      "Xinhua",
+      "Yunhe"
+    ],
+    "Langfang": [
+      "Anci",
+      "Guangyang"
+    ],
+    "Hengshui": [
+      "Taocheng"
+    ],
+    "Harbin": [
+      "Daoli",
+      "Nangang",
+      "Daowai",
+      "Xiangfang",
+      "Pingfang",
+      "Songbei",
+      "Hulan",
+      "Acheng",
+      "Shuangcheng"
+    ],
+    "Qiqihar": [
+      "Longsha",
+      "Jianhua",
+      "Tiefeng",
+      "Ang angxi",
+      "Fularji",
+      "Nianzishan",
+      "Meilisi"
+    ],
+    "Jixi": [
+      "Jiguan",
+      "Hengshan",
+      "Didao",
+      "Lishu",
+      "Chengzihe",
+      "Mashan"
+    ],
+    "Hegang": [
+      "Xiangyang",
+      "Gongnong",
+      "Nanshan",
+      "Xing an",
+      "Dongshan",
+      "Xingshan"
+    ],
+    "Shuangyashan": [
+      "Jianshan",
+      "Lingdong",
+      "Sifangtai",
+      "Baoshan"
+    ],
+    "Daqing": [
+      "Sartu",
+      "Longfeng",
+      "Ranghulu",
+      "Honggang",
+      "Datong"
+    ],
+    "Yichun": [
+      "Yichun",
+      "Nancha",
+      "Youhao",
+      "Xilin",
+      "Cuiluan",
+      "Xinqing",
+      "Meixi",
+      "Jinshantun",
+      "Wuying",
+      "Wumahe",
+      "Tangwanghe",
+      "Dailing",
+      "Wuyiling",
+      "Hongxing",
+      "Shangganling"
+    ],
+    "Jiamusi": [
+      "Xiangyang",
+      "Qianjin",
+      "Dongfeng",
+      "Jiao(qu)"
+    ],
+    "Qitaihe": [
+      "Xinxing",
+      "Taoshan",
+      "Qiezihe"
+    ],
+    "Mudanjiang": [
+      "Dong an",
+      "Yangming",
+      "Aimin",
+      "Xi an"
+    ],
+    "Heihe": [
+      "Aihui"
+    ],
+    "Suihua": [
+      "Beilin"
+    ],
+    "Da Hinggan Ling": [
+      "Jiagedaqi",
+      "Songling",
+      "Xinlin",
+      "Huzhong"
+    ],
+    "Zhengzhou": [
+      "Zhongyuan",
+      "Erqi",
+      "Guancheng",
+      "Jinshui",
+      "Shangjie",
+      "Huiji"
+    ],
+    "Kaifeng": [
+      "Longting",
+      "Shunhe",
+      "Gulou",
+      "Yuwangtai"
+    ],
+    "Luoyang": [
+      "Laocheng",
+      "Xigong",
+      "Chanhe",
+      "Jianxi",
+      "Jili",
+      "Luolong"
+    ],
+    "Pingdingshan": [
+      "Xinhua",
+      "Weidong",
+      "Shilong",
+      "Zhanhe"
+    ],
+    "Anyang": [
+      "Wenfeng",
+      "Beiguan",
+      "Yindu",
+      "Long an"
+    ],
+    "Hebi": [
+      "Heshan",
+      "Shancheng",
+      "Qibin"
+    ],
+    "Xinxiang": [
+      "Hongqi",
+      "Weibin",
+      "Fengquan",
+      "Muye"
+    ],
+    "Jiaozuo": [
+      "Jiefang",
+      "Zhongzhan",
+      "Macun",
+      "Shanyang"
+    ],
+    "Puyang": [
+      "Hualong"
+    ],
+    "Xuchang": [
+      "Weidu"
+    ],
+    "Luohe": [
+      "Yuanhui",
+      "Yancheng",
+      "Shaoling"
+    ],
+    "Sanmenxia": [
+      "Hubin"
+    ],
+    "Nanyang": [
+      "Wancheng",
+      "Wolong"
+    ],
+    "Shangqiu": [
+      "Liangyuan",
+      "Suiyang"
+    ],
+    "Xinyang": [
+      "Shihe",
+      "Pingqiao"
+    ],
+    "Zhoukou": [
+      "Chuanhui"
+    ],
+    "Zhumadian": [
+      "Yicheng"
+    ],
+    "Wuhan": [
+      "Jiang an",
+      "Jianghan",
+      "Qiaokou",
+      "Hanyang",
+      "Wuchang",
+      "Qingshan",
+      "Hongshan",
+      "Dongxihu",
+      "Hannan",
+      "Caidian",
+      "Jiangxia",
+      "Huangpi",
+      "Xinzhou"
+    ],
+    "Huangshi": [
+      "Huangshigang",
+      "Xisaishan",
+      "Xialu",
+      "Tieshan"
+    ],
+    "Shiyan": [
+      "Maojian",
+      "Yunyang",
+      "Zhangwan"
+    ],
+    "Yichang": [
+      "Xiling",
+      "Wujiagang",
+      "Dianjun",
+      "Xiaoting",
+      "Yiling"
+    ],
+    "Xiangyang": [
+      "Xiangcheng",
+      "Fancheng",
+      "Xiangyang Xiangzhou"
+    ],
+    "Ezhou": [
+      "Liangzihu",
+      "Huarong",
+      "Echeng"
+    ],
+    "Jingmen": [
+      "Dongbao",
+      "Duodao"
+    ],
+    "Xiaogan": [
+      "Xiaonan"
+    ],
+    "Jingzhou": [
+      "Shashi",
+      "Jingzhou"
+    ],
+    "Huanggang": [
+      "Huangzhou"
+    ],
+    "Xianning": [
+      "Xian an"
+    ],
+    "Suizhou": [
+      "Zengdu"
+    ],
+    "Changsha": [
+      "Furong",
+      "Tianxin",
+      "Yuelu",
+      "Kaifu",
+      "Yuhua",
+      "Wangcheng"
+    ],
+    "Zhuzhou": [
+      "Hetang",
+      "Lusong",
+      "Shifeng",
+      "Tianyuan"
+    ],
+    "Xiangtan": [
+      "Yuetang",
+      "Yuhu"
+    ],
+    "Hengyang": [
+      "Zhuhui",
+      "Yanfeng",
+      "Shigu",
+      "Zhengxiang",
+      "Nanyue"
+    ],
+    "Shaoyang": [
+      "Shuangqing",
+      "Daxiang",
+      "Beita"
+    ],
+    "Yueyang": [
+      "Yueyanglou",
+      "Yunxi",
+      "Junshan"
+    ],
+    "Changde": [
+      "Wuling",
+      "Dingcheng"
+    ],
+    "Zhangjiajie": [
+      "Yongding",
+      "Wulingyuan"
+    ],
+    "Yiyang": [
+      "Ziyang",
+      "Heshan"
+    ],
+    "Chenzhou": [
+      "Beihu",
+      "Suxian"
+    ],
+    "Yongzhou": [
+      "Lingling",
+      "Lengshuitan"
+    ],
+    "Huaihua": [
+      "Hecheng",
+      "Hongjiang(qu)"
+    ],
+    "Loudi": [
+      "Louxing"
+    ],
+    "Lishui": [
+      "Liandu"
+    ],
+    "Taizhou": [
+      "Luqiao",
+      "Huangyan",
+      "Jiaojiang"
+    ],
+    "Zhoushan": [
+      "Putuo",
+      "Dinghai"
+    ],
+    "Quzhou": [
+      "Qujiang",
+      "Kecheng"
+    ],
+    "Jinhua": [
+      "Jindong",
+      "Wucheng"
+    ],
+    "Shaoxing": [
+      "Shangyu",
+      "Keqiao",
+      "Yuecheng"
+    ],
+    "Huzhou": [
+      "Nanxun",
+      "Wuxing"
+    ],
+    "Jiaxing": [
+      "Xiuzhou",
+      "Nanhu"
+    ],
+    "Wenzhou": [
+      "Ouhai",
+      "Longwan",
+      "Lucheng"
+    ],
+    "Ningbo": [
+      "Yinzhou",
+      "Zhenhai",
+      "Beilun",
+      "Jiangbei",
+      "Jiangdong",
+      "Haishu"
+    ],
+    "Hangzhou": [
+      "Yuhang",
+      "Xiaoshan",
+      "Binjiang",
+      "Xihu",
+      "Gongshu",
+      "Jianggan",
+      "Xiacheng",
+      "Shangcheng"
+    ],
+    "Lincang": [
+      "Linxiang"
+    ],
+    "Pu er": [
+      "Simao"
+    ],
+    "Lijiang": [
+      "Gucheng"
+    ],
+    "Zhaotong": [
+      "Zhaoyang"
+    ],
+    "Baoshan": [
+      "Longyang"
+    ],
+    "Yuxi": [
+      "Hongta"
+    ],
+    "Qujing": [
+      "Qilin"
+    ],
+    "Kunming": [
+      "Chenggong",
+      "Dongchuan",
+      "Xishan",
+      "Guandu",
+      "Panlong",
+      "Wuhua"
+    ],
+    "Karamay": [
+      "Urho",
+      "Baijiantan",
+      "Dushanzi",
+      "Karamay"
+    ],
+    "Ürümqi": [
+      "Midong",
+      "Dabancheng",
+      "Toutunhe",
+      "Shuimogou",
+      "Xinshi",
+      "Saybagh",
+      "Tianshan"
+    ],
+    "Qamdo": [
+      "Karub"
+    ],
+    "Xigazê": [
+      "Samzhubzê"
+    ],
+    "Lhasa": [
+      "Chengguan"
+    ],
+    "Ziyang": [
+      "Yanjiang"
+    ],
+    "Bazhong": [
+      "Enyang",
+      "Bazhou"
+    ],
+    "Ya an": [
+      "Mingshan",
+      "Yucheng"
+    ],
+    "Dazhou": [
+      "Dachuan",
+      "Tongchuan"
+    ],
+    "Guang an": [
+      "Qianfeng",
+      "Guang an"
+    ],
+    "Yibin": [
+      "Nanxi",
+      "Cuiping"
+    ],
+    "Meishan": [
+      "Pengshan",
+      "Dongpo"
+    ],
+    "Nanchong": [
+      "Jialing",
+      "Gaoping",
+      "Shunqing"
+    ],
+    "Leshan": [
+      "Jinkouhe",
+      "Wutongqiao",
+      "Shawan",
+      "Shizhong"
+    ],
+    "Neijiang": [
+      "Dongxing",
+      "Shizhong"
+    ],
+    "Suining": [
+      "Anju",
+      "Chuanshan"
+    ],
+    "Guangyuan": [
+      "Chaotian",
+      "Yuanba → Zhaohua",
+      "Lizhou"
+    ],
+    "Mianyang": [
+      "Youxian",
+      "Fucheng"
+    ],
+    "Deyang": [
+      "Jingyang"
+    ],
+    "Luzhou": [
+      "Longmatan",
+      "Naxi",
+      "Jiangyang"
+    ],
+    "Panzhihua": [
+      "Renhe",
+      "Xi(qu)",
+      "Dong(qu)"
+    ],
+    "Zigong": [
+      "Yantan",
+      "Da an",
+      "Gongjing",
+      "Ziliujing"
+    ],
+    "Chengdu": [
+      "Wenjiang",
+      "Xindu",
+      "Qingbaijiang",
+      "Longquanyi",
+      "Chenghua",
+      "Wuhou",
+      "Jinniu",
+      "Qingyang",
+      "Jinjiang"
+    ],
+    "Lüliang": [
+      "Lishi"
+    ],
+    "Linfen": [
+      "Yaodu"
+    ],
+    "Xinzhou": [
+      "Xinfu"
+    ],
+    "Yuncheng": [
+      "Yanhu"
+    ],
+    "Jinzhong": [
+      "Yuci"
+    ],
+    "Shuozhou": [
+      "Pinglu",
+      "Shuocheng"
+    ],
+    "Jincheng": [
+      "Cheng(qu)"
+    ],
+    "Changzhi": [
+      "Jiao(qu)",
+      "Cheng(qu)"
+    ],
+    "Yangquan": [
+      "Jiao(qu)",
+      "Kuang(qu)",
+      "Cheng(qu)"
+    ],
+    "Datong": [
+      "Xinrong",
+      "Nanjiao",
+      "Kuang(qu)",
+      "Cheng(qu)"
+    ],
+    "Taiyuan": [
+      "Jinyuan",
+      "Wanbailin",
+      "Jiancaoping",
+      "Xinghualing",
+      "Yingze",
+      "Xiaodian"
+    ],
+    "Heze": [
+      "Mudan"
+    ],
+    "Binzhou": [
+      "Zhanhua",
+      "Bincheng"
+    ],
+    "Liaocheng": [
+      "Dongchangfu"
+    ],
+    "Dezhou": [
+      "Lingcheng",
+      "Decheng"
+    ],
+    "Linyi": [
+      "Hedong",
+      "Luozhuang",
+      "Lanshan"
+    ],
+    "Laiwu": [
+      "Gangcheng",
+      "Laicheng"
+    ],
+    "Rizhao": [
+      "Lanshan",
+      "Donggang"
+    ],
+    "Weihai": [
+      "Huancui",
+      "Wendeng"
+    ],
+    "Tai an": [
+      "Taishan",
+      "Daiyue"
+    ],
+    "Jining": [
+      "Rencheng",
+      "Yanzhou"
+    ],
+    "Weifang": [
+      "Weicheng",
+      "Hanting",
+      "Fangzi",
+      "Kuiwen"
+    ],
+    "Yantai": [
+      "Zhifu",
+      "Fushan",
+      "Muping",
+      "Laishan"
+    ],
+    "Dongying": [
+      "Dongying",
+      "Hekou"
+    ],
+    "Zaozhuang": [
+      "Shizhong",
+      "Xuecheng",
+      "Yicheng",
+      "Tai erzhuang",
+      "Shanting"
+    ],
+    "Zibo": [
+      "Zichuan",
+      "Zhangdian",
+      "Boshan",
+      "Linzi",
+      "Zhoucun"
+    ],
+    "Qingdao": [
+      "Shinan",
+      "Shibei",
+      "Licang",
+      "Huangdao",
+      "Laoshan",
+      "Chengyang"
+    ],
+    "Jinan": [
+      "Lixia",
+      "Shizhong",
+      "Huaiyin",
+      "Tianqiao",
+      "Licheng",
+      "Changqing"
+    ],
+    "Shangluo": [
+      "Shangzhou"
+    ],
+    "Ankang": [
+      "Hanbin"
+    ],
+    "Yulin": [
+      "Yuyang"
+    ],
+    "Hanzhong": [
+      "Hantai"
+    ],
+    "Yan an": [
+      "Baota"
+    ],
+    "Weinan": [
+      "Linwei"
+    ],
+    "Xianyang": [
+      "Weicheng",
+      "Yangling",
+      "Qindu"
+    ],
+    "Baoji": [
+      "Chencang",
+      "Jintai",
+      "Weibin"
+    ],
+    "Tongchuan": [
+      "Yaozhou",
+      "Yintai",
+      "Wangyi"
+    ],
+    "Xi an  Shaanxi": [
+      "Xincheng",
+      "Beilin",
+      "Lianhu",
+      "Baqiao",
+      "Weiyang",
+      "Yanta",
+      "Yanliang",
+      "Yanliang",
+      "Chang an"
+    ],
+    "Haidong": [
+      "Ledu"
+    ],
+    "Xining": [
+      "Chengdong",
+      "Chengzhong",
+      "Chengxi",
+      "Chengbei"
+    ],
+    "Zhongwei": [
+      "Shapotou"
+    ],
+    "Guyuan": [
+      "Yuanzhou"
+    ],
+    "Wuzhong": [
+      "Litong",
+      "Hongsibu"
+    ],
+    "Shizuishan": [
+      "Dawukou",
+      "Huinong"
+    ],
+    "Yinchuan": [
+      "Xingqing",
+      "Xixia",
+      "Jinfeng"
+    ],
+    "Huludao": [
+      "Lianshan",
+      "Longgang",
+      "Nanpiao"
+    ],
+    "Jinzhou": [
+      "Guta",
+      "Taihe",
+      "Linghe"
+    ],
+    "Yingkou": [
+      "Zhanqian",
+      "Xishi",
+      "Bayuquan",
+      "Laobian"
+    ],
+    "Anshan": [
+      "Tiedong",
+      "Tiexi",
+      "Lishan",
+      "Qianshan"
+    ],
+    "Fushun": [
+      "Xinfu",
+      "Dongzhou",
+      "Wanghua",
+      "Shuncheng"
+    ],
+    "Chaoyang": [
+      "Shuangta",
+      "Longcheng"
+    ],
+    "Tieling": [
+      "Yinzhou",
+      "Qinghe"
+    ],
+    "Panjin": [
+      "Shuangtaizi",
+      "Xinglongtai"
+    ],
+    "Liaoyang": [
+      "Baita",
+      "Wensheng",
+      "Hongwei",
+      "Gongchangling",
+      "Taizihe"
+    ],
+    "Dandong": [
+      "Yuanbao",
+      "Zhenxing",
+      "Zhen an"
+    ],
+    "Benxi": [
+      "Pingshan",
+      "Xihu",
+      "Mingshan",
+      "Nanfen"
+    ],
+    "Fuxin": [
+      "Haizhou",
+      "Xinqiu",
+      "Taiping",
+      "Qinghemen",
+      "Xihe"
+    ],
+    "Dalian": [
+      "Zhongshan",
+      "Xigang",
+      "Shahekou",
+      "Ganjingzi",
+      "Lüshunkou",
+      "Jinzhou"
+    ],
+    "Shenyang": [
+      "Heping",
+      "Shenhe",
+      "Dadong",
+      "Huanggu",
+      "Tiexi",
+      "Sujiatun",
+      "Dongling Hunnan",
+      "Shenbei",
+      "Yuhong"
+    ],
+    "Baicheng": [
+      "Taobei"
+    ],
+    "Songyuan": [
+      "Ningjiang"
+    ],
+    "Baishan": [
+      "Badaojiang Hunjiang",
+      "Jiangyuan"
+    ],
+    "Tonghua": [
+      "Dongchang",
+      "Erdaojiang"
+    ],
+    "Liaoyuan": [
+      "Longshan",
+      "Xi an Liaoyuan"
+    ],
+    "Siping": [
+      "Tiexi",
+      "Tiedong"
+    ],
+    "Jilin": [
+      "Changyi",
+      "Longtan",
+      "Chuanying",
+      "Fengman"
+    ],
+    "Changchun": [
+      "Nanguan",
+      "Kuancheng",
+      "Chaoyang",
+      "Erdao",
+      "Luyuan",
+      "Shuangyang",
+      "Jiutai"
+    ],
+    "Shangrao": [
+      "Xinzhou"
+    ],
+    "Jiangxi Fuzhou": [
+      "Linchuan"
+    ],
+    "Jiangxi Yichun": [
+      "Yuanzhou"
+    ],
+    "Ji an Jiangxi": [
+      "Jizhou",
+      "Qingyuan"
+    ],
+    "Ganzhou": [
+      "Zhanggong",
+      "Nankang"
+    ],
+    "Yingtan": [
+      "Yuehu"
+    ],
+    "Xinyu": [
+      "Yushui"
+    ],
+    "Jiujiang": [
+      "Lushan",
+      "Xunyang"
+    ],
+    "Pingxiang": [
+      "Anyuan",
+      "Xiangdong"
+    ],
+    "Jingdezhen": [
+      "Zhushan",
+      "Changjiang"
+    ],
+    "Nanchang": [
+      "Donghu",
+      "Xihu",
+      "Qingyunpu",
+      "Wanli",
+      "Wanli"
+    ],
+    "Suqian": [
+      "Sucheng",
+      "Suyu"
+    ],
+    "Zhenjiang": [
+      "Jingkou",
+      "Runzhou",
+      "Dantu"
+    ],
+    "Yangzhou": [
+      "Guangling",
+      "Hanjiang",
+      "Jiangdu"
+    ],
+    "Yancheng": [
+      "Tinghu",
+      "Yandu"
+    ],
+    "Huai an": [
+      "Qinghe",
+      "Chuzhou Huai an",
+      "Huaiyin",
+      "Qingpu"
+    ],
+    "Lianyungang": [
+      "Haizhou",
+      "Lianyun",
+      "Ganyu"
+    ],
+    "Nantong": [
+      "Chongchuan",
+      "Gangzha",
+      "Tongzhou"
+    ],
+    "Suzhou": [
+      "Gusu",
+      "Huqiu",
+      "Wuzhong",
+      "Xiangcheng",
+      "Wujiang"
+    ],
+    "Changzhou": [
+      "Tianning",
+      "Zhonglou",
+      "Qishuyan",
+      "Xinbei",
+      "Wujin"
+    ],
+    "Xuzhou": [
+      "Gulou",
+      "Yunlong",
+      "Jiawang",
+      "Quanshan",
+      "Tongshan"
+    ],
+    "Wuxi": [
+      "Chong an",
+      "Nanchang",
+      "Beitang",
+      "Binhu",
+      "Huishan",
+      "Xishan"
+    ],
+    "Nanjing": [
+      "Xuanwu",
+      "Qinhuai",
+      "Jianye",
+      "Gulou",
+      "Pukou",
+      "Qixia",
+      "Yuhuatai",
+      "Jiangning",
+      "Luhe",
+      "Lishui",
+      "Gaochun"
+    ],
+    "Ulanqab": [
+      "Jining"
+    ],
+    "Bayannur": [
+      "Linhe"
+    ],
+    "Hulunbuir": [
+      "Hailar",
+      "Jalainur"
+    ],
+    "Ordos": [
+      "Dongsheng"
+    ],
+    "Tongliao": [
+      "Horqin"
+    ],
+    "Chifeng": [
+      "Hongshan",
+      "Yuanbaoshan",
+      "Songshan"
+    ],
+    "Wuhai": [
+      "Haibowan",
+      "Hainan",
+      "Wuda"
+    ],
+    "Baotou": [
+      "Donghe",
+      "Hondlon",
+      "Qingshan",
+      "Shiguai",
+      "Bayan Obo",
+      "Jiuyuan",
+      "Binhe"
+    ],
+    "Hohhot": [
+      "Xincheng",
+      "Huimin",
+      "Yuquan",
+      "Saihan"
+    ]
+  }
+}
+
+

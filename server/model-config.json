@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "mongo",
+    "public": false,
+    "relations": {
+      "user": {
+        "type": "belongsTo",
+        "model": "user",
+        "foreignKey": "userId"
+      }
+    }
+  },
+  "ACL": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongo",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "user": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "asset": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "assetpool": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "token": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "profile": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "email": {
+    "dataSource": "email",
+    "public": true
+  },
+  "favouriteAsset": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "counter": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "country": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "province": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "city": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "district": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "log": {
+    "dataSource": "mongo",
+    "public": true
+  }
+}
